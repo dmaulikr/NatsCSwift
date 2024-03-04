@@ -1,0 +1,1025 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AB0FC52B92064F008D3584 /* seed.nk in Resources */ = {isa = PBXBuildFile; fileRef = 82AB0FC42B92064F008D3584 /* seed.nk */; };
+		82CDCA892B91B8E700BB2C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCA882B91B8E700BB2C7D /* AppDelegate.swift */; };
+		82CDCA8B2B91B8E700BB2C7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCA8A2B91B8E700BB2C7D /* SceneDelegate.swift */; };
+		82CDCA8D2B91B8E700BB2C7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCA8C2B91B8E700BB2C7D /* ViewController.swift */; };
+		82CDCA902B91B8E700BB2C7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCA8E2B91B8E700BB2C7D /* Main.storyboard */; };
+		82CDCA922B91B8E800BB2C7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCA912B91B8E800BB2C7D /* Assets.xcassets */; };
+		82CDCA952B91B8E800BB2C7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCA932B91B8E800BB2C7D /* LaunchScreen.storyboard */; };
+		82CDCAA92B91B90100BB2C7D /* NatsManagerClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */; };
+		82CDCAB02B91B90100BB2C7D /* NatsManagerClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCAAF2B91B90100BB2C7D /* NatsManagerClassTests.swift */; };
+		82CDCAB12B91B90100BB2C7D /* NatsManagerClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCAA32B91B90100BB2C7D /* NatsManagerClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CDCAB42B91B90100BB2C7D /* NatsManagerClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */; };
+		82CDCAB52B91B90100BB2C7D /* NatsManagerClass.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82CDCBA02B91B96900BB2C7D /* kv.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB542B91B96900BB2C7D /* kv.c */; };
+		82CDCBA12B91B96900BB2C7D /* url.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB552B91B96900BB2C7D /* url.c */; };
+		82CDCBA22B91B96900BB2C7D /* micro_monitoring.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB562B91B96900BB2C7D /* micro_monitoring.c */; };
+		82CDCBA32B91B96900BB2C7D /* nkeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB572B91B96900BB2C7D /* nkeys.h */; };
+		82CDCBA42B91B96900BB2C7D /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB582B91B96900BB2C7D /* err.h */; };
+		82CDCBA52B91B96900BB2C7D /* deprnats.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB592B91B96900BB2C7D /* deprnats.h */; };
+		82CDCBA62B91B96900BB2C7D /* msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB5A2B91B96900BB2C7D /* msg.c */; };
+		82CDCBA72B91B96900BB2C7D /* micro_args.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB5B2B91B96900BB2C7D /* micro_args.h */; };
+		82CDCBA82B91B96900BB2C7D /* micro_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB5C2B91B96900BB2C7D /* micro_client.c */; };
+		82CDCBA92B91B96900BB2C7D /* srvpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB5D2B91B96900BB2C7D /* srvpool.h */; };
+		82CDCBAA2B91B96900BB2C7D /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB5E2B91B96900BB2C7D /* timer.c */; };
+		82CDCBAB2B91B96900BB2C7D /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB5F2B91B96900BB2C7D /* version.h */; };
+		82CDCBAC2B91B96900BB2C7D /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCB602B91B96900BB2C7D /* CMakeLists.txt */; };
+		82CDCBAD2B91B96900BB2C7D /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB612B91B96900BB2C7D /* status.h */; };
+		82CDCBAE2B91B96900BB2C7D /* asynccb.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB622B91B96900BB2C7D /* asynccb.c */; };
+		82CDCBAF2B91B96900BB2C7D /* nats.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB632B91B96900BB2C7D /* nats.h */; };
+		82CDCBB02B91B96900BB2C7D /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB642B91B96900BB2C7D /* util.c */; };
+		82CDCBB12B91B96900BB2C7D /* microp.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB652B91B96900BB2C7D /* microp.h */; };
+		82CDCBB22B91B96900BB2C7D /* opts.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB662B91B96900BB2C7D /* opts.h */; };
+		82CDCBB32B91B96900BB2C7D /* comsock.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB672B91B96900BB2C7D /* comsock.h */; };
+		82CDCBB42B91B96900BB2C7D /* version.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCB682B91B96900BB2C7D /* version.h.in */; };
+		82CDCBB52B91B96900BB2C7D /* jsm.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB692B91B96900BB2C7D /* jsm.c */; };
+		82CDCBB62B91B96900BB2C7D /* natstime.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB6A2B91B96900BB2C7D /* natstime.c */; };
+		82CDCBB72B91B96900BB2C7D /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB6B2B91B96900BB2C7D /* parser.h */; };
+		82CDCBB82B91B96900BB2C7D /* n-win.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB6D2B91B96900BB2C7D /* n-win.h */; };
+		82CDCBB92B91B96900BB2C7D /* n-unix.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB6E2B91B96900BB2C7D /* n-unix.h */; };
+		82CDCBBA2B91B96900BB2C7D /* sub.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB6F2B91B96900BB2C7D /* sub.h */; };
+		82CDCBBB2B91B96900BB2C7D /* conn.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB702B91B96900BB2C7D /* conn.c */; };
+		82CDCBBC2B91B96900BB2C7D /* gc.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB712B91B96900BB2C7D /* gc.h */; };
+		82CDCBBD2B91B96900BB2C7D /* natsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB722B91B96900BB2C7D /* natsp.h */; };
+		82CDCBBE2B91B96900BB2C7D /* buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB732B91B96900BB2C7D /* buf.h */; };
+		82CDCBBF2B91B96900BB2C7D /* stats.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB742B91B96900BB2C7D /* stats.c */; };
+		82CDCBC02B91B96900BB2C7D /* micro.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB752B91B96900BB2C7D /* micro.c */; };
+		82CDCBC12B91B96900BB2C7D /* js.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB762B91B96900BB2C7D /* js.h */; };
+		82CDCBC22B91B96900BB2C7D /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB772B91B96900BB2C7D /* hash.c */; };
+		82CDCBC32B91B96900BB2C7D /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB782B91B96900BB2C7D /* crypto.h */; };
+		82CDCBC42B91B96900BB2C7D /* nuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB792B91B96900BB2C7D /* nuid.c */; };
+		82CDCBC52B91B96900BB2C7D /* srvpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB7A2B91B96900BB2C7D /* srvpool.c */; };
+		82CDCBC62B91B96900BB2C7D /* micro_args.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB7B2B91B96900BB2C7D /* micro_args.c */; };
+		82CDCBC72B91B96900BB2C7D /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB7C2B91B96900BB2C7D /* timer.h */; };
+		82CDCBC82B91B96900BB2C7D /* libevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB7E2B91B96900BB2C7D /* libevent.h */; };
+		82CDCBC92B91B96900BB2C7D /* libuv.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB7F2B91B96900BB2C7D /* libuv.h */; };
+		82CDCBCA2B91B96900BB2C7D /* micro_error.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB802B91B96900BB2C7D /* micro_error.c */; };
+		82CDCBCB2B91B96900BB2C7D /* msg.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB812B91B96900BB2C7D /* msg.h */; };
+		82CDCBCC2B91B96900BB2C7D /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB832B91B96900BB2C7D /* thread.c */; };
+		82CDCBCD2B91B96900BB2C7D /* mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB842B91B96900BB2C7D /* mutex.c */; };
+		82CDCBCE2B91B96900BB2C7D /* cond.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB852B91B96900BB2C7D /* cond.c */; };
+		82CDCBCF2B91B96900BB2C7D /* sock.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB862B91B96900BB2C7D /* sock.c */; };
+		82CDCBD02B91B96900BB2C7D /* micro_endpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB872B91B96900BB2C7D /* micro_endpoint.c */; };
+		82CDCBD12B91B96900BB2C7D /* nkeys.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB882B91B96900BB2C7D /* nkeys.c */; };
+		82CDCBD22B91B96900BB2C7D /* kv.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB892B91B96900BB2C7D /* kv.h */; };
+		82CDCBD32B91B96900BB2C7D /* url.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB8A2B91B96900BB2C7D /* url.h */; };
+		82CDCBD42B91B96900BB2C7D /* micro_request.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB8B2B91B96900BB2C7D /* micro_request.c */; };
+		82CDCBD52B91B96900BB2C7D /* comsock.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB8C2B91B96900BB2C7D /* comsock.c */; };
+		82CDCBD62B91B96900BB2C7D /* opts.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB8D2B91B96900BB2C7D /* opts.c */; };
+		82CDCBD72B91B96900BB2C7D /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB8E2B91B96900BB2C7D /* util.h */; };
+		82CDCBD82B91B96900BB2C7D /* nats.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB8F2B91B96900BB2C7D /* nats.c */; };
+		82CDCBD92B91B96900BB2C7D /* asynccb.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB902B91B96900BB2C7D /* asynccb.h */; };
+		82CDCBDA2B91B96900BB2C7D /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB912B91B96900BB2C7D /* status.c */; };
+		82CDCBDB2B91B96900BB2C7D /* conn.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB922B91B96900BB2C7D /* conn.h */; };
+		82CDCBDC2B91B96900BB2C7D /* sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB932B91B96900BB2C7D /* sub.c */; };
+		82CDCBDD2B91B96900BB2C7D /* mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB942B91B96900BB2C7D /* mem.h */; };
+		82CDCBDE2B91B96900BB2C7D /* libnats.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 82CDCB952B91B96900BB2C7D /* libnats.pc.in */; };
+		82CDCBDF2B91B96900BB2C7D /* natstime.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB962B91B96900BB2C7D /* natstime.h */; };
+		82CDCBE02B91B96900BB2C7D /* pub.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB972B91B96900BB2C7D /* pub.c */; };
+		82CDCBE12B91B96900BB2C7D /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB982B91B96900BB2C7D /* parser.c */; };
+		82CDCBE22B91B96900BB2C7D /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB992B91B96900BB2C7D /* crypto.c */; };
+		82CDCBE32B91B96900BB2C7D /* nuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB9A2B91B96900BB2C7D /* nuid.h */; };
+		82CDCBE42B91B96900BB2C7D /* js.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB9B2B91B96900BB2C7D /* js.c */; };
+		82CDCBE52B91B96900BB2C7D /* stats.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB9C2B91B96900BB2C7D /* stats.h */; };
+		82CDCBE62B91B96900BB2C7D /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CDCB9D2B91B96900BB2C7D /* hash.h */; };
+		82CDCBE72B91B96900BB2C7D /* buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB9E2B91B96900BB2C7D /* buf.c */; };
+		82CDCBE82B91B96900BB2C7D /* NATSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CDCB9F2B91B96900BB2C7D /* NATSManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CDCAAA2B91B90100BB2C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CDCA7D2B91B8E700BB2C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CDCAA02B91B90100BB2C7D;
+			remoteInfo = NatsManagerClass;
+		};
+		82CDCAAC2B91B90100BB2C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CDCA7D2B91B8E700BB2C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CDCA842B91B8E700BB2C7D;
+			remoteInfo = NatsManagerDemo;
+		};
+		82CDCAB22B91B90100BB2C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CDCA7D2B91B8E700BB2C7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CDCAA02B91B90100BB2C7D;
+			remoteInfo = NatsManagerClass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82CDCAB92B91B90100BB2C7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82CDCAB52B91B90100BB2C7D /* NatsManagerClass.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82AB0FC42B92064F008D3584 /* seed.nk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seed.nk; sourceTree = "<group>"; };
+		82CDCA852B91B8E700BB2C7D /* NatsManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatsManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CDCA882B91B8E700BB2C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82CDCA8A2B91B8E700BB2C7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82CDCA8C2B91B8E700BB2C7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82CDCA8F2B91B8E700BB2C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82CDCA912B91B8E800BB2C7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82CDCA942B91B8E800BB2C7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82CDCA962B91B8E800BB2C7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NatsManagerClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CDCAA32B91B90100BB2C7D /* NatsManagerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatsManagerClass.h; sourceTree = "<group>"; };
+		82CDCAA82B91B90100BB2C7D /* NatsManagerClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatsManagerClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CDCAAF2B91B90100BB2C7D /* NatsManagerClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatsManagerClassTests.swift; sourceTree = "<group>"; };
+		82CDCB542B91B96900BB2C7D /* kv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kv.c; sourceTree = "<group>"; };
+		82CDCB552B91B96900BB2C7D /* url.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = url.c; sourceTree = "<group>"; };
+		82CDCB562B91B96900BB2C7D /* micro_monitoring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_monitoring.c; sourceTree = "<group>"; };
+		82CDCB572B91B96900BB2C7D /* nkeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nkeys.h; sourceTree = "<group>"; };
+		82CDCB582B91B96900BB2C7D /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		82CDCB592B91B96900BB2C7D /* deprnats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deprnats.h; sourceTree = "<group>"; };
+		82CDCB5A2B91B96900BB2C7D /* msg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msg.c; sourceTree = "<group>"; };
+		82CDCB5B2B91B96900BB2C7D /* micro_args.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = micro_args.h; sourceTree = "<group>"; };
+		82CDCB5C2B91B96900BB2C7D /* micro_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_client.c; sourceTree = "<group>"; };
+		82CDCB5D2B91B96900BB2C7D /* srvpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srvpool.h; sourceTree = "<group>"; };
+		82CDCB5E2B91B96900BB2C7D /* timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timer.c; sourceTree = "<group>"; };
+		82CDCB5F2B91B96900BB2C7D /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		82CDCB602B91B96900BB2C7D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		82CDCB612B91B96900BB2C7D /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
+		82CDCB622B91B96900BB2C7D /* asynccb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asynccb.c; sourceTree = "<group>"; };
+		82CDCB632B91B96900BB2C7D /* nats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nats.h; sourceTree = "<group>"; };
+		82CDCB642B91B96900BB2C7D /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		82CDCB652B91B96900BB2C7D /* microp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = microp.h; sourceTree = "<group>"; };
+		82CDCB662B91B96900BB2C7D /* opts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opts.h; sourceTree = "<group>"; };
+		82CDCB672B91B96900BB2C7D /* comsock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comsock.h; sourceTree = "<group>"; };
+		82CDCB682B91B96900BB2C7D /* version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.h.in; sourceTree = "<group>"; };
+		82CDCB692B91B96900BB2C7D /* jsm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jsm.c; sourceTree = "<group>"; };
+		82CDCB6A2B91B96900BB2C7D /* natstime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = natstime.c; sourceTree = "<group>"; };
+		82CDCB6B2B91B96900BB2C7D /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		82CDCB6D2B91B96900BB2C7D /* n-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "n-win.h"; sourceTree = "<group>"; };
+		82CDCB6E2B91B96900BB2C7D /* n-unix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "n-unix.h"; sourceTree = "<group>"; };
+		82CDCB6F2B91B96900BB2C7D /* sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sub.h; sourceTree = "<group>"; };
+		82CDCB702B91B96900BB2C7D /* conn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = conn.c; sourceTree = "<group>"; };
+		82CDCB712B91B96900BB2C7D /* gc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gc.h; sourceTree = "<group>"; };
+		82CDCB722B91B96900BB2C7D /* natsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = natsp.h; sourceTree = "<group>"; };
+		82CDCB732B91B96900BB2C7D /* buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buf.h; sourceTree = "<group>"; };
+		82CDCB742B91B96900BB2C7D /* stats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stats.c; sourceTree = "<group>"; };
+		82CDCB752B91B96900BB2C7D /* micro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro.c; sourceTree = "<group>"; };
+		82CDCB762B91B96900BB2C7D /* js.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = js.h; sourceTree = "<group>"; };
+		82CDCB772B91B96900BB2C7D /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		82CDCB782B91B96900BB2C7D /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		82CDCB792B91B96900BB2C7D /* nuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nuid.c; sourceTree = "<group>"; };
+		82CDCB7A2B91B96900BB2C7D /* srvpool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = srvpool.c; sourceTree = "<group>"; };
+		82CDCB7B2B91B96900BB2C7D /* micro_args.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_args.c; sourceTree = "<group>"; };
+		82CDCB7C2B91B96900BB2C7D /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		82CDCB7E2B91B96900BB2C7D /* libevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libevent.h; sourceTree = "<group>"; };
+		82CDCB7F2B91B96900BB2C7D /* libuv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libuv.h; sourceTree = "<group>"; };
+		82CDCB802B91B96900BB2C7D /* micro_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_error.c; sourceTree = "<group>"; };
+		82CDCB812B91B96900BB2C7D /* msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msg.h; sourceTree = "<group>"; };
+		82CDCB832B91B96900BB2C7D /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		82CDCB842B91B96900BB2C7D /* mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mutex.c; sourceTree = "<group>"; };
+		82CDCB852B91B96900BB2C7D /* cond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cond.c; sourceTree = "<group>"; };
+		82CDCB862B91B96900BB2C7D /* sock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sock.c; sourceTree = "<group>"; };
+		82CDCB872B91B96900BB2C7D /* micro_endpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_endpoint.c; sourceTree = "<group>"; };
+		82CDCB882B91B96900BB2C7D /* nkeys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nkeys.c; sourceTree = "<group>"; };
+		82CDCB892B91B96900BB2C7D /* kv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kv.h; sourceTree = "<group>"; };
+		82CDCB8A2B91B96900BB2C7D /* url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = url.h; sourceTree = "<group>"; };
+		82CDCB8B2B91B96900BB2C7D /* micro_request.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = micro_request.c; sourceTree = "<group>"; };
+		82CDCB8C2B91B96900BB2C7D /* comsock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comsock.c; sourceTree = "<group>"; };
+		82CDCB8D2B91B96900BB2C7D /* opts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opts.c; sourceTree = "<group>"; };
+		82CDCB8E2B91B96900BB2C7D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		82CDCB8F2B91B96900BB2C7D /* nats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nats.c; sourceTree = "<group>"; };
+		82CDCB902B91B96900BB2C7D /* asynccb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asynccb.h; sourceTree = "<group>"; };
+		82CDCB912B91B96900BB2C7D /* status.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = status.c; sourceTree = "<group>"; };
+		82CDCB922B91B96900BB2C7D /* conn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conn.h; sourceTree = "<group>"; };
+		82CDCB932B91B96900BB2C7D /* sub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sub.c; sourceTree = "<group>"; };
+		82CDCB942B91B96900BB2C7D /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
+		82CDCB952B91B96900BB2C7D /* libnats.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libnats.pc.in; sourceTree = "<group>"; };
+		82CDCB962B91B96900BB2C7D /* natstime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = natstime.h; sourceTree = "<group>"; };
+		82CDCB972B91B96900BB2C7D /* pub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pub.c; sourceTree = "<group>"; };
+		82CDCB982B91B96900BB2C7D /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		82CDCB992B91B96900BB2C7D /* crypto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		82CDCB9A2B91B96900BB2C7D /* nuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nuid.h; sourceTree = "<group>"; };
+		82CDCB9B2B91B96900BB2C7D /* js.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = js.c; sourceTree = "<group>"; };
+		82CDCB9C2B91B96900BB2C7D /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		82CDCB9D2B91B96900BB2C7D /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		82CDCB9E2B91B96900BB2C7D /* buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buf.c; sourceTree = "<group>"; };
+		82CDCB9F2B91B96900BB2C7D /* NATSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NATSManager.swift; sourceTree = "<group>"; };
+		82CDCBE92B91B98A00BB2C7D /* NatsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatsHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CDCA822B91B8E700BB2C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCAB42B91B90100BB2C7D /* NatsManagerClass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCA9E2B91B90100BB2C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCAA52B91B90100BB2C7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCAA92B91B90100BB2C7D /* NatsManagerClass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CDCA7C2B91B8E700BB2C7D = {
+			isa = PBXGroup;
+			children = (
+				82CDCA872B91B8E700BB2C7D /* NatsManagerDemo */,
+				82CDCAA22B91B90100BB2C7D /* NatsManagerClass */,
+				82CDCAAE2B91B90100BB2C7D /* NatsManagerClassTests */,
+				82CDCA862B91B8E700BB2C7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CDCA862B91B8E700BB2C7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCA852B91B8E700BB2C7D /* NatsManagerDemo.app */,
+				82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */,
+				82CDCAA82B91B90100BB2C7D /* NatsManagerClassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CDCA872B91B8E700BB2C7D /* NatsManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCA882B91B8E700BB2C7D /* AppDelegate.swift */,
+				82CDCA8A2B91B8E700BB2C7D /* SceneDelegate.swift */,
+				82CDCA8C2B91B8E700BB2C7D /* ViewController.swift */,
+				82AB0FC42B92064F008D3584 /* seed.nk */,
+				82CDCA8E2B91B8E700BB2C7D /* Main.storyboard */,
+				82CDCA912B91B8E800BB2C7D /* Assets.xcassets */,
+				82CDCA932B91B8E800BB2C7D /* LaunchScreen.storyboard */,
+				82CDCA962B91B8E800BB2C7D /* Info.plist */,
+			);
+			path = NatsManagerDemo;
+			sourceTree = "<group>";
+		};
+		82CDCAA22B91B90100BB2C7D /* NatsManagerClass */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCAA32B91B90100BB2C7D /* NatsManagerClass.h */,
+				82CDCB532B91B96900BB2C7D /* NatsC */,
+				82CDCB9F2B91B96900BB2C7D /* NATSManager.swift */,
+				82CDCBE92B91B98A00BB2C7D /* NatsHeader.h */,
+			);
+			path = NatsManagerClass;
+			sourceTree = "<group>";
+		};
+		82CDCAAE2B91B90100BB2C7D /* NatsManagerClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCAAF2B91B90100BB2C7D /* NatsManagerClassTests.swift */,
+			);
+			path = NatsManagerClassTests;
+			sourceTree = "<group>";
+		};
+		82CDCB532B91B96900BB2C7D /* NatsC */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCB7D2B91B96900BB2C7D /* adapters */,
+				82CDCB622B91B96900BB2C7D /* asynccb.c */,
+				82CDCB902B91B96900BB2C7D /* asynccb.h */,
+				82CDCB9E2B91B96900BB2C7D /* buf.c */,
+				82CDCB732B91B96900BB2C7D /* buf.h */,
+				82CDCB602B91B96900BB2C7D /* CMakeLists.txt */,
+				82CDCB8C2B91B96900BB2C7D /* comsock.c */,
+				82CDCB672B91B96900BB2C7D /* comsock.h */,
+				82CDCB702B91B96900BB2C7D /* conn.c */,
+				82CDCB922B91B96900BB2C7D /* conn.h */,
+				82CDCB992B91B96900BB2C7D /* crypto.c */,
+				82CDCB782B91B96900BB2C7D /* crypto.h */,
+				82CDCB592B91B96900BB2C7D /* deprnats.h */,
+				82CDCB582B91B96900BB2C7D /* err.h */,
+				82CDCB712B91B96900BB2C7D /* gc.h */,
+				82CDCB772B91B96900BB2C7D /* hash.c */,
+				82CDCB9D2B91B96900BB2C7D /* hash.h */,
+				82CDCB6C2B91B96900BB2C7D /* include */,
+				82CDCB9B2B91B96900BB2C7D /* js.c */,
+				82CDCB762B91B96900BB2C7D /* js.h */,
+				82CDCB692B91B96900BB2C7D /* jsm.c */,
+				82CDCB542B91B96900BB2C7D /* kv.c */,
+				82CDCB892B91B96900BB2C7D /* kv.h */,
+				82CDCB952B91B96900BB2C7D /* libnats.pc.in */,
+				82CDCB942B91B96900BB2C7D /* mem.h */,
+				82CDCB7B2B91B96900BB2C7D /* micro_args.c */,
+				82CDCB5B2B91B96900BB2C7D /* micro_args.h */,
+				82CDCB5C2B91B96900BB2C7D /* micro_client.c */,
+				82CDCB872B91B96900BB2C7D /* micro_endpoint.c */,
+				82CDCB802B91B96900BB2C7D /* micro_error.c */,
+				82CDCB562B91B96900BB2C7D /* micro_monitoring.c */,
+				82CDCB8B2B91B96900BB2C7D /* micro_request.c */,
+				82CDCB752B91B96900BB2C7D /* micro.c */,
+				82CDCB652B91B96900BB2C7D /* microp.h */,
+				82CDCB5A2B91B96900BB2C7D /* msg.c */,
+				82CDCB812B91B96900BB2C7D /* msg.h */,
+				82CDCB8F2B91B96900BB2C7D /* nats.c */,
+				82CDCB632B91B96900BB2C7D /* nats.h */,
+				82CDCB722B91B96900BB2C7D /* natsp.h */,
+				82CDCB6A2B91B96900BB2C7D /* natstime.c */,
+				82CDCB962B91B96900BB2C7D /* natstime.h */,
+				82CDCB882B91B96900BB2C7D /* nkeys.c */,
+				82CDCB572B91B96900BB2C7D /* nkeys.h */,
+				82CDCB792B91B96900BB2C7D /* nuid.c */,
+				82CDCB9A2B91B96900BB2C7D /* nuid.h */,
+				82CDCB8D2B91B96900BB2C7D /* opts.c */,
+				82CDCB662B91B96900BB2C7D /* opts.h */,
+				82CDCB982B91B96900BB2C7D /* parser.c */,
+				82CDCB6B2B91B96900BB2C7D /* parser.h */,
+				82CDCB972B91B96900BB2C7D /* pub.c */,
+				82CDCB7A2B91B96900BB2C7D /* srvpool.c */,
+				82CDCB5D2B91B96900BB2C7D /* srvpool.h */,
+				82CDCB742B91B96900BB2C7D /* stats.c */,
+				82CDCB9C2B91B96900BB2C7D /* stats.h */,
+				82CDCB912B91B96900BB2C7D /* status.c */,
+				82CDCB612B91B96900BB2C7D /* status.h */,
+				82CDCB932B91B96900BB2C7D /* sub.c */,
+				82CDCB6F2B91B96900BB2C7D /* sub.h */,
+				82CDCB5E2B91B96900BB2C7D /* timer.c */,
+				82CDCB7C2B91B96900BB2C7D /* timer.h */,
+				82CDCB822B91B96900BB2C7D /* unix */,
+				82CDCB552B91B96900BB2C7D /* url.c */,
+				82CDCB8A2B91B96900BB2C7D /* url.h */,
+				82CDCB642B91B96900BB2C7D /* util.c */,
+				82CDCB8E2B91B96900BB2C7D /* util.h */,
+				82CDCB5F2B91B96900BB2C7D /* version.h */,
+				82CDCB682B91B96900BB2C7D /* version.h.in */,
+			);
+			path = NatsC;
+			sourceTree = "<group>";
+		};
+		82CDCB6C2B91B96900BB2C7D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCB6D2B91B96900BB2C7D /* n-win.h */,
+				82CDCB6E2B91B96900BB2C7D /* n-unix.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		82CDCB7D2B91B96900BB2C7D /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCB7E2B91B96900BB2C7D /* libevent.h */,
+				82CDCB7F2B91B96900BB2C7D /* libuv.h */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+		82CDCB822B91B96900BB2C7D /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				82CDCB832B91B96900BB2C7D /* thread.c */,
+				82CDCB842B91B96900BB2C7D /* mutex.c */,
+				82CDCB852B91B96900BB2C7D /* cond.c */,
+				82CDCB862B91B96900BB2C7D /* sock.c */,
+			);
+			path = unix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82CDCA9C2B91B90100BB2C7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCBBC2B91B96900BB2C7D /* gc.h in Headers */,
+				82CDCBB92B91B96900BB2C7D /* n-unix.h in Headers */,
+				82CDCBAB2B91B96900BB2C7D /* version.h in Headers */,
+				82CDCBE32B91B96900BB2C7D /* nuid.h in Headers */,
+				82CDCBC12B91B96900BB2C7D /* js.h in Headers */,
+				82CDCBBE2B91B96900BB2C7D /* buf.h in Headers */,
+				82CDCBDF2B91B96900BB2C7D /* natstime.h in Headers */,
+				82CDCBBD2B91B96900BB2C7D /* natsp.h in Headers */,
+				82CDCBA42B91B96900BB2C7D /* err.h in Headers */,
+				82CDCBB12B91B96900BB2C7D /* microp.h in Headers */,
+				82CDCBAD2B91B96900BB2C7D /* status.h in Headers */,
+				82CDCBBA2B91B96900BB2C7D /* sub.h in Headers */,
+				82CDCBD92B91B96900BB2C7D /* asynccb.h in Headers */,
+				82CDCBC72B91B96900BB2C7D /* timer.h in Headers */,
+				82CDCBDD2B91B96900BB2C7D /* mem.h in Headers */,
+				82CDCBA52B91B96900BB2C7D /* deprnats.h in Headers */,
+				82CDCBAF2B91B96900BB2C7D /* nats.h in Headers */,
+				82CDCBD22B91B96900BB2C7D /* kv.h in Headers */,
+				82CDCBB32B91B96900BB2C7D /* comsock.h in Headers */,
+				82CDCAB12B91B90100BB2C7D /* NatsManagerClass.h in Headers */,
+				82CDCBC92B91B96900BB2C7D /* libuv.h in Headers */,
+				82CDCBCB2B91B96900BB2C7D /* msg.h in Headers */,
+				82CDCBA32B91B96900BB2C7D /* nkeys.h in Headers */,
+				82CDCBDB2B91B96900BB2C7D /* conn.h in Headers */,
+				82CDCBC82B91B96900BB2C7D /* libevent.h in Headers */,
+				82CDCBB22B91B96900BB2C7D /* opts.h in Headers */,
+				82CDCBA92B91B96900BB2C7D /* srvpool.h in Headers */,
+				82CDCBB72B91B96900BB2C7D /* parser.h in Headers */,
+				82CDCBB82B91B96900BB2C7D /* n-win.h in Headers */,
+				82CDCBD32B91B96900BB2C7D /* url.h in Headers */,
+				82CDCBE62B91B96900BB2C7D /* hash.h in Headers */,
+				82CDCBE52B91B96900BB2C7D /* stats.h in Headers */,
+				82CDCBA72B91B96900BB2C7D /* micro_args.h in Headers */,
+				82CDCBD72B91B96900BB2C7D /* util.h in Headers */,
+				82CDCBC32B91B96900BB2C7D /* crypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82CDCA842B91B8E700BB2C7D /* NatsManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CDCA992B91B8E800BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerDemo" */;
+			buildPhases = (
+				82CDCA812B91B8E700BB2C7D /* Sources */,
+				82CDCA822B91B8E700BB2C7D /* Frameworks */,
+				82CDCA832B91B8E700BB2C7D /* Resources */,
+				82CDCAB92B91B90100BB2C7D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CDCAB32B91B90100BB2C7D /* PBXTargetDependency */,
+			);
+			name = NatsManagerDemo;
+			productName = NatsManagerDemo;
+			productReference = 82CDCA852B91B8E700BB2C7D /* NatsManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CDCAA02B91B90100BB2C7D /* NatsManagerClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CDCAB62B91B90100BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerClass" */;
+			buildPhases = (
+				82CDCA9C2B91B90100BB2C7D /* Headers */,
+				82CDCA9D2B91B90100BB2C7D /* Sources */,
+				82CDCA9E2B91B90100BB2C7D /* Frameworks */,
+				82CDCA9F2B91B90100BB2C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatsManagerClass;
+			productName = NatsManagerClass;
+			productReference = 82CDCAA12B91B90100BB2C7D /* NatsManagerClass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82CDCAA72B91B90100BB2C7D /* NatsManagerClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CDCABA2B91B90100BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerClassTests" */;
+			buildPhases = (
+				82CDCAA42B91B90100BB2C7D /* Sources */,
+				82CDCAA52B91B90100BB2C7D /* Frameworks */,
+				82CDCAA62B91B90100BB2C7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CDCAAB2B91B90100BB2C7D /* PBXTargetDependency */,
+				82CDCAAD2B91B90100BB2C7D /* PBXTargetDependency */,
+			);
+			name = NatsManagerClassTests;
+			productName = NatsManagerClassTests;
+			productReference = 82CDCAA82B91B90100BB2C7D /* NatsManagerClassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CDCA7D2B91B8E700BB2C7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					82CDCA842B91B8E700BB2C7D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					82CDCAA02B91B90100BB2C7D = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					82CDCAA72B91B90100BB2C7D = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 82CDCA842B91B8E700BB2C7D;
+					};
+				};
+			};
+			buildConfigurationList = 82CDCA802B91B8E700BB2C7D /* Build configuration list for PBXProject "NatsManagerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CDCA7C2B91B8E700BB2C7D;
+			productRefGroup = 82CDCA862B91B8E700BB2C7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CDCA842B91B8E700BB2C7D /* NatsManagerDemo */,
+				82CDCAA02B91B90100BB2C7D /* NatsManagerClass */,
+				82CDCAA72B91B90100BB2C7D /* NatsManagerClassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CDCA832B91B8E700BB2C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCA952B91B8E800BB2C7D /* LaunchScreen.storyboard in Resources */,
+				82CDCA922B91B8E800BB2C7D /* Assets.xcassets in Resources */,
+				82CDCA902B91B8E700BB2C7D /* Main.storyboard in Resources */,
+				82AB0FC52B92064F008D3584 /* seed.nk in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCA9F2B91B90100BB2C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCBAC2B91B96900BB2C7D /* CMakeLists.txt in Resources */,
+				82CDCBDE2B91B96900BB2C7D /* libnats.pc.in in Resources */,
+				82CDCBB42B91B96900BB2C7D /* version.h.in in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCAA62B91B90100BB2C7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CDCA812B91B8E700BB2C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCA8D2B91B8E700BB2C7D /* ViewController.swift in Sources */,
+				82CDCA892B91B8E700BB2C7D /* AppDelegate.swift in Sources */,
+				82CDCA8B2B91B8E700BB2C7D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCA9D2B91B90100BB2C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCBE42B91B96900BB2C7D /* js.c in Sources */,
+				82CDCBDA2B91B96900BB2C7D /* status.c in Sources */,
+				82CDCBB62B91B96900BB2C7D /* natstime.c in Sources */,
+				82CDCBD52B91B96900BB2C7D /* comsock.c in Sources */,
+				82CDCBB52B91B96900BB2C7D /* jsm.c in Sources */,
+				82CDCBE82B91B96900BB2C7D /* NATSManager.swift in Sources */,
+				82CDCBE22B91B96900BB2C7D /* crypto.c in Sources */,
+				82CDCBC02B91B96900BB2C7D /* micro.c in Sources */,
+				82CDCBAE2B91B96900BB2C7D /* asynccb.c in Sources */,
+				82CDCBE12B91B96900BB2C7D /* parser.c in Sources */,
+				82CDCBCC2B91B96900BB2C7D /* thread.c in Sources */,
+				82CDCBD42B91B96900BB2C7D /* micro_request.c in Sources */,
+				82CDCBBF2B91B96900BB2C7D /* stats.c in Sources */,
+				82CDCBC62B91B96900BB2C7D /* micro_args.c in Sources */,
+				82CDCBD82B91B96900BB2C7D /* nats.c in Sources */,
+				82CDCBCF2B91B96900BB2C7D /* sock.c in Sources */,
+				82CDCBDC2B91B96900BB2C7D /* sub.c in Sources */,
+				82CDCBD62B91B96900BB2C7D /* opts.c in Sources */,
+				82CDCBC42B91B96900BB2C7D /* nuid.c in Sources */,
+				82CDCBA02B91B96900BB2C7D /* kv.c in Sources */,
+				82CDCBA82B91B96900BB2C7D /* micro_client.c in Sources */,
+				82CDCBA62B91B96900BB2C7D /* msg.c in Sources */,
+				82CDCBAA2B91B96900BB2C7D /* timer.c in Sources */,
+				82CDCBB02B91B96900BB2C7D /* util.c in Sources */,
+				82CDCBBB2B91B96900BB2C7D /* conn.c in Sources */,
+				82CDCBA12B91B96900BB2C7D /* url.c in Sources */,
+				82CDCBCD2B91B96900BB2C7D /* mutex.c in Sources */,
+				82CDCBA22B91B96900BB2C7D /* micro_monitoring.c in Sources */,
+				82CDCBD12B91B96900BB2C7D /* nkeys.c in Sources */,
+				82CDCBCE2B91B96900BB2C7D /* cond.c in Sources */,
+				82CDCBE72B91B96900BB2C7D /* buf.c in Sources */,
+				82CDCBD02B91B96900BB2C7D /* micro_endpoint.c in Sources */,
+				82CDCBC22B91B96900BB2C7D /* hash.c in Sources */,
+				82CDCBC52B91B96900BB2C7D /* srvpool.c in Sources */,
+				82CDCBCA2B91B96900BB2C7D /* micro_error.c in Sources */,
+				82CDCBE02B91B96900BB2C7D /* pub.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CDCAA42B91B90100BB2C7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CDCAB02B91B90100BB2C7D /* NatsManagerClassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CDCAAB2B91B90100BB2C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CDCAA02B91B90100BB2C7D /* NatsManagerClass */;
+			targetProxy = 82CDCAAA2B91B90100BB2C7D /* PBXContainerItemProxy */;
+		};
+		82CDCAAD2B91B90100BB2C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CDCA842B91B8E700BB2C7D /* NatsManagerDemo */;
+			targetProxy = 82CDCAAC2B91B90100BB2C7D /* PBXContainerItemProxy */;
+		};
+		82CDCAB32B91B90100BB2C7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CDCAA02B91B90100BB2C7D /* NatsManagerClass */;
+			targetProxy = 82CDCAB22B91B90100BB2C7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CDCA8E2B91B8E700BB2C7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CDCA8F2B91B8E700BB2C7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82CDCA932B91B8E800BB2C7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CDCA942B91B8E800BB2C7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CDCA972B91B8E800BB2C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82CDCA982B91B8E800BB2C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CDCA9A2B91B8E800BB2C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatsManagerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82CDCA9B2B91B8E800BB2C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatsManagerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82CDCAB72B91B90100BB2C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerClass;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NatsManagerClass/NatsHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82CDCAB82B91B90100BB2C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerClass;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NatsManagerClass/NatsHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82CDCABB2B91B90100BB2C7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatsManagerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NatsManagerDemo";
+			};
+			name = Debug;
+		};
+		82CDCABC2B91B90100BB2C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NatsManagerClassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatsManagerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NatsManagerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CDCA802B91B8E700BB2C7D /* Build configuration list for PBXProject "NatsManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CDCA972B91B8E800BB2C7D /* Debug */,
+				82CDCA982B91B8E800BB2C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CDCA992B91B8E800BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CDCA9A2B91B8E800BB2C7D /* Debug */,
+				82CDCA9B2B91B8E800BB2C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CDCAB62B91B90100BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CDCAB72B91B90100BB2C7D /* Debug */,
+				82CDCAB82B91B90100BB2C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CDCABA2B91B90100BB2C7D /* Build configuration list for PBXNativeTarget "NatsManagerClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CDCABB2B91B90100BB2C7D /* Debug */,
+				82CDCABC2B91B90100BB2C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CDCA7D2B91B8E700BB2C7D /* Project object */;
+}
